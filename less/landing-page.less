@@ -1,0 +1,78 @@
+body {
+  background: url(https://github.com/Build-Week-Anywhere-Fitness1-April-2020/ui-marketing/blob/Anthony-Navarro/img/workout-1.jpg?raw=true) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fit {
+  color: @primary;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: @primary;
+  padding: 70px;
+  font-size: 3em;
+
+  @media @phone {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 20px;
+
+
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: auto;
+
+  }
+
+
+  .button-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: center;
+    background-color: @primary;
+    color: black;
+    padding: 10px;
+    margin: 40px 0 40px 0;
+
+
+    // @media @phone {
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: flex-end;
+    //   align-self: auto;
+  }
+
+}
+
+.button-1:hover {
+  background-color: @secondary;
+  color: black;
+  opacity: 2;
+  transition: 0.8s;
+}
